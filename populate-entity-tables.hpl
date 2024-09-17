@@ -140,7 +140,7 @@
       </field>
       <field>
         <length>-1</length>
-        <name>descripcio</name>
+        <name>descripcion</name>
         <precision>-1</precision>
         <repeat>N</repeat>
         <trim_type>none</trim_type>
@@ -148,7 +148,7 @@
       </field>
       <field>
         <length>-1</length>
-        <name>tablaRelacionada</name>
+        <name>tabla relacionada</name>
         <precision>-1</precision>
         <repeat>N</repeat>
         <trim_type>none</trim_type>
@@ -158,7 +158,7 @@
     <file>
       <file_required>N</file_required>
       <include_subfolders>N</include_subfolders>
-      <name>C:\Users\davis\Downloads\Entidades y atributos.xlsx</name>
+      <name>/Users/d4/Downloads/Entidades y atributos (1).xlsx</name>
     </file>
     <header>Y</header>
     <limit>0</limit>
@@ -285,7 +285,7 @@ FROM
         <remove_special_characters>espace</remove_special_characters>
       </field>
       <field>
-        <in_stream_name>description</in_stream_name>
+        <in_stream_name>name</in_stream_name>
         <out_stream_name/>
         <trim_type>none</trim_type>
         <lower_upper>lower</lower_upper>
@@ -399,11 +399,7 @@ FROM
         <rename>name</rename>
       </field>
       <field>
-        <name>descripcio</name>
-        <rename>description</rename>
-      </field>
-      <field>
-        <name>tablaRelacionada</name>
+        <name>tabla relacionada</name>
         <rename>table</rename>
       </field>
       <select_unspecified>N</select_unspecified>
